@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/nnl_appbar">
+
+			<android.support.v7.widget.Toolbar
+				android:id="@+id/nnl_toolbar"
+				android:layout_width="match_parent"
+				android:layout_height="?attr/actionBarSize"
+
+				android:theme="@style/ThemeOverlay.AppCompat.Dark"
+				app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+			</android.support.v7.widget.Toolbar>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<android.support.v4.widget.NestedScrollView
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+		<FrameLayout
+			android:id="@+id/nnl_main"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+		/>
+
+	</android.support.v4.widget.NestedScrollView>
+
+	<android.support.design.widget.FloatingActionButton 
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/nnl_fab" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_gravity="end|bottom" 
+		android:layout_margin="10dp" 
+		android:src="@drawable/ic_action_new" 
+		app:borderWidth="2dp" 
+		app:fabSize="normal"
+		android:onClick="_FAB_Click"
+		app:rippleColor="#fff" /> 
+
+</android.support.design.widget.CoordinatorLayout>
+

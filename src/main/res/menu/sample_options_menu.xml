@@ -1,0 +1,34 @@
+<menu xmlns:android=
+	"http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/action_search"
+		android:title="Search"
+		android:icon="@drawable/ic_launcher" />
+	<item
+		android:id="@+id/action_save"
+		android:title="Save"
+		android:icon="@drawable/ic_launcher" />
+	<item android:id="@+id/action_share"
+		android:title="Share"
+		android:icon="@drawable/ic_launcher" />
+	<item android:id="@+id/action_settings"
+		android:title="Settings"
+		android:icon="@drawable/ic_launcher"
+		android:showAsAction="never" />
+	<item android:id="@+id/action_about"
+		android:title="About"
+		android:icon="@drawable/ic_launcher"
+		android:showAsAction="never" />
+</menu>
+
+<!--
+	android:showAsAction="ifRoom|collapseActionView"
+	
+- ifRoom: Only place this action in the action bar if there is enough room; otherwise, place it in the overflow menu.
+- never: Never place this action in the action bar, always place it in the overflow menu.
+- withText: Include text title for the action item.
+- always: Always place this action in the action bar.
+- collapseActionView: Collapse the action item if supported.
+
+-->
+

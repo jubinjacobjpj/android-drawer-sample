@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="240dp"
+	android:background="@drawable/headerimg"
+	android:padding="16dp"
+	android:theme="@style/ThemeOverlay.AppCompat.Dark"
+	android:gravity="bottom">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Drawer Header Text"
+		android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+		android:layout_gravity="bottom|center_horizontal"
+		android:id="@+id/nnl_nav_header_tv"
+		android:gravity="center"
+		android:textSize="20sp"/>
+
+</LinearLayout>
+
